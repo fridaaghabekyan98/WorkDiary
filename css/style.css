@@ -1,0 +1,243 @@
+body {
+    background: #F9F9F9;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h2.text-center.work-diary {
+    font-family: 'Lato', sans-serif;
+    margin-top: 90px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+p.line {
+    width: 77px;
+    height: 2px;
+    background: #FF7700;
+}
+
+h2.text-center.work-diary p {
+    margin: 10px;
+}
+
+.dashboard {
+    box-shadow: 0 0 3px #ccc7c7;
+    padding: 30px 30px  60px;
+    background: #fff;
+}
+
+.dashboard_header_text {
+    margin: 3px 10px 0;
+}
+
+.arrow_icon:hover {
+    cursor: pointer;
+}
+
+.arrow_icon {
+    margin: 2px;
+    display: block;
+}
+
+.date_text {
+    color: #FF7700;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.date_block p {
+    width: fit-content;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #d0d0d0;
+}
+
+li.list-inline-item.time_list {
+    box-shadow: 0 0 3px #d0d0d0;
+    padding: 10px 10px 0;
+    margin-top: 10px;
+}
+
+select#exampleFormControlSelect1 {
+    font-size: 13px;
+    color: #B7B7B7;
+}
+
+.imgs-block img {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/*index2*/
+
+.imgs-block ul{
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox * {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-userQ-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.checkbox > input {
+    display: none;
+}
+
+.checkbox > label {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.checkbox > [type="checkbox"] + label:before {
+    color: #777;
+    content: '';
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+    min-height: 15px;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #777;
+    vertical-align: top;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    content: '';
+    top: 2px;
+}
+
+.checkbox.radio-square > [type="checkbox"] + label:before {
+    border-radius: 0px;
+}
+
+.checkbox.radio-rounded > [type="checkbox"] + label:before {
+    border-radius: 25%;
+}
+
+.checkbox.radio-blue > [type="checkbox"] + label:before {
+    border: 2px solid #ccc;
+}
+
+.checkbox > [type="checkbox"] + label:before {
+    border-color: #ff7700;
+}
+
+.checkbox > [type="checkbox"]:checked + label:before {
+    width: 8px;
+    height: 16px;
+    border-top: transparent;
+    border-left: transparent;
+    border-color: #ff7700;
+    border-width: 4px;
+    transform: rotate(45deg);
+    top: -4px;
+    left: 4px;
+}
+
+.line_images {
+    width: inherit;
+    background: #ff7700;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.line_images p {
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 0 2px;
+}
+
+.loading {
+    display: block;
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: 2px dashed #ff7700;
+    border-left-color: #dddddd;
+    border-radius: 50%;
+}
+
+.loading p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 30%);
+    font-size: 10px;
+}
+
+.line_images_2 {
+    width: 100%;
+    background: #ff7700;
+    border-radius: 10px;
+    padding: 0px 5px;
+    display: block;
+}
+
+.line_images_2 p {
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 0 2px;
+}
+
+.no_screenshot {
+    width: 127px;
+    height: 74px;
+    border: 1px dashed #c7c7c7;
+    top: 0;
+    margin-top: -2px;
+    position: relative;
+}
+
+p.no_screen_text {
+    color: #c7c7c7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+ul.dropdown-menu label {
+    font-size: 14px;
+    color: #000;
+    margin-left: 10px;
+}
+button.btn.btn-default.dropdown-toggle {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    color: #b7b7b7;
+}
+
+button.btn.btn-default.dropdown-toggle span {
+    float: left;
+}
+
+.dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+}
+ul.dropdown-menu.show {
+    padding: 5px;
+}
+
+
